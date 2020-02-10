@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "<junoserver>";
-    $user = "<hasib>";
-    $pass = "<laruku$1>";
-    $db = "<junodb>";
+    $host = "junoserver";
+    $user = "hasib";
+    $pass = "laruku$1";
+    $db = "junodb";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
