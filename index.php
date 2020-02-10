@@ -26,7 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "junoserver";
+    $host = "tcp:junoserver.database.windows.net,1433";
     $user = "hasib";
     $pass = "laruku$1";
     $db = "junodb";
